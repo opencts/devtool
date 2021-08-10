@@ -1,23 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import './assets/scss/_index.scss';
-import DialogProvider from './services/DialogProvider';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Store from './services/Store';
+import './vendor/assets/scss/_index.scss';
 
 ReactDOM.render(
-  <DialogProvider>
-    <Store>
-      <BrowserRouter>
-        <Switch>
-          <Route path="/" exact>
-            <App />
-          </Route>
-        </Switch>
-      </BrowserRouter>
-    </Store>
-  </DialogProvider>,
+  <App />,
   document.getElementById('root')
 );
 

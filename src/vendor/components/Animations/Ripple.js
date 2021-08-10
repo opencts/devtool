@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Children } from 'react';
 import { useRef } from 'react';
 

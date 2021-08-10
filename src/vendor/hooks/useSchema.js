@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { _SERVER_URL } from '../config/environment';
+import { _SERVER_URL } from '../../config/environment';
 import { http } from '../services/http.service';
 
 const useSchema = (collection) => {

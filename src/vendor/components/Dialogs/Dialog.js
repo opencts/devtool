@@ -1,4 +1,3 @@
-import React from 'react'
 import Transition from '../Animations/Transition'
 import Flex from '../Containers/Flex'
 import Icon from '../Fonts/Icon'

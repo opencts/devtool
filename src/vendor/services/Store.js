@@ -1,5 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useState } from "react";
-import { _SERVER_URL, _WS_SERVER_URL } from "../config/environment";
+import { _SERVER_URL, _WS_SERVER_URL } from "../../config/environment";
 import useSchema from "../hooks/useSchema";
 import { http } from "./http.service";
 
