@@ -19,7 +19,6 @@ module.exports = {
                     options: {
                         presets: [
                             "@babel/preset-env",
-                            "@babel/preset-react"
                         ],
                         plugins: [
                             "@babel/plugin-transform-runtime"
@@ -35,7 +34,7 @@ module.exports = {
     externals: [NodeExternals()],
     devtool: 'source-map',
     devServer: {
-        port: 5000,
+        port: 3790,
         progress: true,
         open: false
     }
