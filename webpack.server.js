@@ -1,5 +1,6 @@
 const path = require('path');
 const NodeExternals = require('webpack-node-externals');
+const NodemonPlugin = require('nodemon-webpack-plugin');
 
 const mode = process.env.NODE_ENV === 'production' ? 'production' : 'development';
 
@@ -33,9 +34,5 @@ module.exports = {
     },
     externals: [NodeExternals()],
     devtool: 'source-map',
-    devServer: {
-        port: 3790,
-        progress: true,
-        open: false
-    }
+    plugins: [new NodemonPlugin()]
 }

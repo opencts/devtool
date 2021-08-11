@@ -1,5 +1,7 @@
 import './generators/schema/schemaType';
 
+export const MONGO_URI = 'mongodb://localhost/test_db';
+
 export default {
     users: {
         email: Email,
