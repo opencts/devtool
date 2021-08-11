@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Flex from '../Containers/Flex';
 import Icon from '../Fonts/Icon'
 import Button from '../Forms/Button';

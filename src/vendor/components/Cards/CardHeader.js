@@ -1,3 +1,4 @@
+import React from "react";
 import Icon from "../Fonts/Icon";
 import CardAvatar from "./CardAvatar";
 import CardSubTitle from "./CardSubTitle";

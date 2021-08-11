@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import Icon from "../Fonts/Icon";
 
 const ICON_COLORS = {
